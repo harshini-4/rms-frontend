@@ -1,5 +1,9 @@
 const API_URL = "https://rms-backend-7cao.onrender.com/employee"; // Change based on your backend
 
+function goDashboard() {
+    window.location.href = "../dashboard/dashboard.html";
+}
+
 // Fetch and Display Employees
 async function fetchEmployees() {
     const response = await fetch(API_URL);

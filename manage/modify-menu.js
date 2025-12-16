@@ -1,5 +1,9 @@
 const API_URL = "https://rms-backend-7cao.onrender.com/menu"; // API URL for menu routes
 
+function goDashboard() {
+    window.location.href = "../dashboard/dashboard.html";
+}
+
 // Fetch and display menu items
 async function fetchMenuItems() {
     const response = await fetch(API_URL);

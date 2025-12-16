@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious - Home</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Delicious</h1>
+        <h1>Ahara Leaf</h1>
         <button id="adminLogin" class="hidden" onclick="redirectToLogin()">Admin Login</button>
     </header>
 
@@ -26,17 +28,17 @@
         <div class="image-section">
             <img src="./homepage-img.jpg" alt="Delicious food">
         </div>
-
-        <div id="adminLogin" class="hidden">
-            <button onclick="redirectToLogin()">Admin Login</button>
-        </div>
     </main>
+
+    <footer>
+        © 2025 Restaurant Management System | Ahara Leaf
+    </footer>
 
     <script>
         function redirectToLogin() {
             window.location.href = "login/login.html";
         }
-        function redirectToMenuHomepage(){
+        function redirectToMenuHomepage() {
             window.location.href = "menu/menu-homepage.html";
         }
         document.addEventListener("keydown", function (event) {
@@ -47,4 +49,5 @@
         });
     </script>
 </body>
+
 </html>

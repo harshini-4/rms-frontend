@@ -101,3 +101,19 @@ table th {
 .delete-btn:hover {
     background-color: #e6c200;
 }
+
+button {
+    background-color: #6a0dad;
+    color: #ffcc00;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a009d;
+}
